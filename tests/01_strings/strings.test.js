@@ -24,7 +24,7 @@ describe('doesInclude', () => {
   });
 });
 
-describe('isPalindrome', () => {
+describe.only('isPalindrome', () => {
   it('is a function', () => {
     expect(typeof isPalindrome).to.equal('function');
   });
